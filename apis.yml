@@ -1,0 +1,32 @@
+aid: jobs2careers
+name: Jobs2Careers
+description: "Job aggregator"
+url: http://api.jobs2careers.com/api/spec.pdf
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: Jobs2Careers
+    description: "Job aggregator"
+    humanURL: http://api.jobs2careers.com/api/spec.pdf
+    baseURL: http://api.jobs2careers.com/api/spec.pdf
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: http://api.jobs2careers.com/api/spec.pdf
+common:
+  - type: Website
+    url: http://api.jobs2careers.com/api/spec.pdf
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
