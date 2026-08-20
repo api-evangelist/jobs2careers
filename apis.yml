@@ -22,6 +22,9 @@ x-category: "Jobs"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
+  - Job
+  - Public APIs
+tags_raw:
   - Jobs
   - Public APIs
 apis:
@@ -30,6 +33,8 @@ apis:
     humanURL: http://api.jobs2careers.com/api/spec.pdf
     baseURL: http://api.jobs2careers.com/api/spec.pdf
     tags:
+      - Job
+    tags_raw:
       - Jobs
     properties:
       - type: Documentation
